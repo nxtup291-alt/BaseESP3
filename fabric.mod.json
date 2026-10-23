@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "baseesp",
+  "version": "${version}",
+  "name": "BaseESP",
+  "description": "Configurable client-side nearby storage and base-sign scanning overlay.",
+  "authors": ["BaseESP contributors"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.baseesp.client.BaseEspClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
